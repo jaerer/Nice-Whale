@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACDD86402515B6A300A0C30B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDD863F2515B6A300A0C30B /* AppDelegate.swift */; };
+		ACDD86422515B6A300A0C30B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ACDD86412515B6A300A0C30B /* GameScene.sks */; };
+		ACDD86442515B6A300A0C30B /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = ACDD86432515B6A300A0C30B /* Actions.sks */; };
+		ACDD86462515B6A300A0C30B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDD86452515B6A300A0C30B /* GameScene.swift */; };
+		ACDD86482515B6A300A0C30B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDD86472515B6A300A0C30B /* GameViewController.swift */; };
+		ACDD864B2515B6A300A0C30B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACDD86492515B6A300A0C30B /* Main.storyboard */; };
+		ACDD864D2515B6A500A0C30B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACDD864C2515B6A500A0C30B /* Assets.xcassets */; };
+		ACDD86502515B6A500A0C30B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACDD864E2515B6A500A0C30B /* LaunchScreen.storyboard */; };
+		ACDD865B2515B6A500A0C30B /* Nice_WhaleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDD865A2515B6A500A0C30B /* Nice_WhaleTests.swift */; };
+		ACDD86662515B6A500A0C30B /* Nice_WhaleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDD86652515B6A500A0C30B /* Nice_WhaleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACDD86572515B6A500A0C30B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACDD86342515B6A300A0C30B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACDD863B2515B6A300A0C30B;
+			remoteInfo = "Nice Whale";
+		};
+		ACDD86622515B6A500A0C30B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACDD86342515B6A300A0C30B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACDD863B2515B6A300A0C30B;
+			remoteInfo = "Nice Whale";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACDD863C2515B6A300A0C30B /* Nice Whale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nice Whale.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACDD863F2515B6A300A0C30B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACDD86412515B6A300A0C30B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		ACDD86432515B6A300A0C30B /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		ACDD86452515B6A300A0C30B /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		ACDD86472515B6A300A0C30B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		ACDD864A2515B6A300A0C30B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACDD864C2515B6A500A0C30B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACDD864F2515B6A500A0C30B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACDD86512515B6A500A0C30B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACDD86562515B6A500A0C30B /* Nice WhaleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nice WhaleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACDD865A2515B6A500A0C30B /* Nice_WhaleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nice_WhaleTests.swift; sourceTree = "<group>"; };
+		ACDD865C2515B6A500A0C30B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACDD86612515B6A500A0C30B /* Nice WhaleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nice WhaleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACDD86652515B6A500A0C30B /* Nice_WhaleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nice_WhaleUITests.swift; sourceTree = "<group>"; };
+		ACDD86672515B6A500A0C30B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACDD86392515B6A300A0C30B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDD86532515B6A500A0C30B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDD865E2515B6A500A0C30B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACDD86332515B6A300A0C30B = {
+			isa = PBXGroup;
+			children = (
+				ACDD863E2515B6A300A0C30B /* Nice Whale */,
+				ACDD86592515B6A500A0C30B /* Nice WhaleTests */,
+				ACDD86642515B6A500A0C30B /* Nice WhaleUITests */,
+				ACDD863D2515B6A300A0C30B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACDD863D2515B6A300A0C30B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACDD863C2515B6A300A0C30B /* Nice Whale.app */,
+				ACDD86562515B6A500A0C30B /* Nice WhaleTests.xctest */,
+				ACDD86612515B6A500A0C30B /* Nice WhaleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACDD863E2515B6A300A0C30B /* Nice Whale */ = {
+			isa = PBXGroup;
+			children = (
+				ACDD863F2515B6A300A0C30B /* AppDelegate.swift */,
+				ACDD86412515B6A300A0C30B /* GameScene.sks */,
+				ACDD86432515B6A300A0C30B /* Actions.sks */,
+				ACDD86452515B6A300A0C30B /* GameScene.swift */,
+				ACDD86472515B6A300A0C30B /* GameViewController.swift */,
+				ACDD86492515B6A300A0C30B /* Main.storyboard */,
+				ACDD864C2515B6A500A0C30B /* Assets.xcassets */,
+				ACDD864E2515B6A500A0C30B /* LaunchScreen.storyboard */,
+				ACDD86512515B6A500A0C30B /* Info.plist */,
+			);
+			path = "Nice Whale";
+			sourceTree = "<group>";
+		};
+		ACDD86592515B6A500A0C30B /* Nice WhaleTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACDD865A2515B6A500A0C30B /* Nice_WhaleTests.swift */,
+				ACDD865C2515B6A500A0C30B /* Info.plist */,
+			);
+			path = "Nice WhaleTests";
+			sourceTree = "<group>";
+		};
+		ACDD86642515B6A500A0C30B /* Nice WhaleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACDD86652515B6A500A0C30B /* Nice_WhaleUITests.swift */,
+				ACDD86672515B6A500A0C30B /* Info.plist */,
+			);
+			path = "Nice WhaleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACDD863B2515B6A300A0C30B /* Nice Whale */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACDD866A2515B6A500A0C30B /* Build configuration list for PBXNativeTarget "Nice Whale" */;
+			buildPhases = (
+				ACDD86382515B6A300A0C30B /* Sources */,
+				ACDD86392515B6A300A0C30B /* Frameworks */,
+				ACDD863A2515B6A300A0C30B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nice Whale";
+			productName = "Nice Whale";
+			productReference = ACDD863C2515B6A300A0C30B /* Nice Whale.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACDD86552515B6A500A0C30B /* Nice WhaleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACDD866D2515B6A500A0C30B /* Build configuration list for PBXNativeTarget "Nice WhaleTests" */;
+			buildPhases = (
+				ACDD86522515B6A500A0C30B /* Sources */,
+				ACDD86532515B6A500A0C30B /* Frameworks */,
+				ACDD86542515B6A500A0C30B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACDD86582515B6A500A0C30B /* PBXTargetDependency */,
+			);
+			name = "Nice WhaleTests";
+			productName = "Nice WhaleTests";
+			productReference = ACDD86562515B6A500A0C30B /* Nice WhaleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACDD86602515B6A500A0C30B /* Nice WhaleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACDD86702515B6A500A0C30B /* Build configuration list for PBXNativeTarget "Nice WhaleUITests" */;
+			buildPhases = (
+				ACDD865D2515B6A500A0C30B /* Sources */,
+				ACDD865E2515B6A500A0C30B /* Frameworks */,
+				ACDD865F2515B6A500A0C30B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACDD86632515B6A500A0C30B /* PBXTargetDependency */,
+			);
+			name = "Nice WhaleUITests";
+			productName = "Nice WhaleUITests";
+			productReference = ACDD86612515B6A500A0C30B /* Nice WhaleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACDD86342515B6A300A0C30B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Joëlle Rennick";
+				TargetAttributes = {
+					ACDD863B2515B6A300A0C30B = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					ACDD86552515B6A500A0C30B = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = ACDD863B2515B6A300A0C30B;
+					};
+					ACDD86602515B6A500A0C30B = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = ACDD863B2515B6A300A0C30B;
+					};
+				};
+			};
+			buildConfigurationList = ACDD86372515B6A300A0C30B /* Build configuration list for PBXProject "Nice Whale" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACDD86332515B6A300A0C30B;
+			productRefGroup = ACDD863D2515B6A300A0C30B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACDD863B2515B6A300A0C30B /* Nice Whale */,
+				ACDD86552515B6A500A0C30B /* Nice WhaleTests */,
+				ACDD86602515B6A500A0C30B /* Nice WhaleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACDD863A2515B6A300A0C30B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDD864B2515B6A300A0C30B /* Main.storyboard in Resources */,
+				ACDD86422515B6A300A0C30B /* GameScene.sks in Resources */,
+				ACDD864D2515B6A500A0C30B /* Assets.xcassets in Resources */,
+				ACDD86502515B6A500A0C30B /* LaunchScreen.storyboard in Resources */,
+				ACDD86442515B6A300A0C30B /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDD86542515B6A500A0C30B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDD865F2515B6A500A0C30B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACDD86382515B6A300A0C30B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDD86462515B6A300A0C30B /* GameScene.swift in Sources */,
+				ACDD86482515B6A300A0C30B /* GameViewController.swift in Sources */,
+				ACDD86402515B6A300A0C30B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDD86522515B6A500A0C30B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDD865B2515B6A500A0C30B /* Nice_WhaleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDD865D2515B6A500A0C30B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACDD86662515B6A500A0C30B /* Nice_WhaleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACDD86582515B6A500A0C30B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACDD863B2515B6A300A0C30B /* Nice Whale */;
+			targetProxy = ACDD86572515B6A500A0C30B /* PBXContainerItemProxy */;
+		};
+		ACDD86632515B6A500A0C30B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACDD863B2515B6A300A0C30B /* Nice Whale */;
+			targetProxy = ACDD86622515B6A500A0C30B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACDD86492515B6A300A0C30B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACDD864A2515B6A300A0C30B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACDD864E2515B6A500A0C30B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACDD864F2515B6A500A0C30B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACDD86682515B6A500A0C30B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACDD86692515B6A500A0C30B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACDD866B2515B6A500A0C30B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Nice Whale/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Project.Nice-Whale";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACDD866C2515B6A500A0C30B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Nice Whale/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Project.Nice-Whale";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ACDD866E2515B6A500A0C30B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Nice WhaleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Project.Nice-WhaleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nice Whale.app/Nice Whale";
+			};
+			name = Debug;
+		};
+		ACDD866F2515B6A500A0C30B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Nice WhaleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Project.Nice-WhaleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nice Whale.app/Nice Whale";
+			};
+			name = Release;
+		};
+		ACDD86712515B6A500A0C30B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Nice WhaleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Project.Nice-WhaleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Nice Whale";
+			};
+			name = Debug;
+		};
+		ACDD86722515B6A500A0C30B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Nice WhaleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Project.Nice-WhaleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Nice Whale";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACDD86372515B6A300A0C30B /* Build configuration list for PBXProject "Nice Whale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDD86682515B6A500A0C30B /* Debug */,
+				ACDD86692515B6A500A0C30B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACDD866A2515B6A500A0C30B /* Build configuration list for PBXNativeTarget "Nice Whale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDD866B2515B6A500A0C30B /* Debug */,
+				ACDD866C2515B6A500A0C30B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACDD866D2515B6A500A0C30B /* Build configuration list for PBXNativeTarget "Nice WhaleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDD866E2515B6A500A0C30B /* Debug */,
+				ACDD866F2515B6A500A0C30B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACDD86702515B6A500A0C30B /* Build configuration list for PBXNativeTarget "Nice WhaleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACDD86712515B6A500A0C30B /* Debug */,
+				ACDD86722515B6A500A0C30B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACDD86342515B6A300A0C30B /* Project object */;
+}
