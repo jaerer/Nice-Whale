@@ -4,7 +4,7 @@
 //
 //  Created by Joëlle Rennick on 2020-09-18.
 //  Copyright © 2020 Joëlle Rennick. All rights reserved.
-//https://ionicframework.com/blog/deploying-to-a-device-without-an-apple-developer-account/
+//
 
 import SpriteKit
 import GameplayKit
