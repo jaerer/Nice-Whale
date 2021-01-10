@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC632F81253A67E300BC6B94 /* HelloBragTags.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC632F80253A67E300BC6B94 /* HelloBragTags.ttf */; };
+		AC632F86253BCB1100BC6B94 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC632F85253BCB1100BC6B94 /* GameOverScene.swift */; };
+		ACD88F652551130B00F35A22 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD88F642551130B00F35A22 /* MainMenuScene.swift */; };
+		ACD88F6A255116EF00F35A22 /* RockSalt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACD88F69255116CC00F35A22 /* RockSalt.ttf */; };
+		ACD88F7F2552551D00F35A22 /* BackingAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ACD88F7E2552551D00F35A22 /* BackingAudio.mp3 */; };
+		ACD88F8725525AEE00F35A22 /* Bubbles.wav in Resources */ = {isa = PBXBuildFile; fileRef = ACD88F8625525AEE00F35A22 /* Bubbles.wav */; };
+		ACD88F9F25525DB000F35A22 /* ReleaseFish.wav in Resources */ = {isa = PBXBuildFile; fileRef = ACD88F9E25525DB000F35A22 /* ReleaseFish.wav */; };
 		ACDD86402515B6A300A0C30B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACDD863F2515B6A300A0C30B /* AppDelegate.swift */; };
 		ACDD86422515B6A300A0C30B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ACDD86412515B6A300A0C30B /* GameScene.sks */; };
 		ACDD86442515B6A300A0C30B /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = ACDD86432515B6A300A0C30B /* Actions.sks */; };
@@ -37,6 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC632F80253A67E300BC6B94 /* HelloBragTags.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HelloBragTags.ttf; sourceTree = "<group>"; };
+		AC632F85253BCB1100BC6B94 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		ACD88F642551130B00F35A22 /* MainMenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		ACD88F69255116CC00F35A22 /* RockSalt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = RockSalt.ttf; sourceTree = "<group>"; };
+		ACD88F7E2552551D00F35A22 /* BackingAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BackingAudio.mp3; sourceTree = "<group>"; };
+		ACD88F8625525AEE00F35A22 /* Bubbles.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Bubbles.wav; sourceTree = "<group>"; };
+		ACD88F9E25525DB000F35A22 /* ReleaseFish.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ReleaseFish.wav; sourceTree = "<group>"; };
 		ACDD863C2515B6A300A0C30B /* Nice Whale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nice Whale.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACDD863F2515B6A300A0C30B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACDD86412515B6A300A0C30B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -107,9 +121,16 @@
 				ACDD86412515B6A300A0C30B /* GameScene.sks */,
 				ACDD86432515B6A300A0C30B /* Actions.sks */,
 				ACDD86452515B6A300A0C30B /* GameScene.swift */,
+				ACD88F642551130B00F35A22 /* MainMenuScene.swift */,
+				AC632F85253BCB1100BC6B94 /* GameOverScene.swift */,
 				ACDD86472515B6A300A0C30B /* GameViewController.swift */,
 				ACDD86492515B6A300A0C30B /* Main.storyboard */,
 				ACDD864C2515B6A500A0C30B /* Assets.xcassets */,
+				ACD88F8625525AEE00F35A22 /* Bubbles.wav */,
+				ACD88F9E25525DB000F35A22 /* ReleaseFish.wav */,
+				ACD88F7E2552551D00F35A22 /* BackingAudio.mp3 */,
+				ACD88F69255116CC00F35A22 /* RockSalt.ttf */,
+				AC632F80253A67E300BC6B94 /* HelloBragTags.ttf */,
 				ACDD864E2515B6A500A0C30B /* LaunchScreen.storyboard */,
 				ACDD86512515B6A500A0C30B /* Info.plist */,
 			);
@@ -238,9 +259,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACD88F6A255116EF00F35A22 /* RockSalt.ttf in Resources */,
 				ACDD864B2515B6A300A0C30B /* Main.storyboard in Resources */,
 				ACDD86422515B6A300A0C30B /* GameScene.sks in Resources */,
 				ACDD864D2515B6A500A0C30B /* Assets.xcassets in Resources */,
+				ACD88F9F25525DB000F35A22 /* ReleaseFish.wav in Resources */,
+				ACD88F7F2552551D00F35A22 /* BackingAudio.mp3 in Resources */,
+				ACD88F8725525AEE00F35A22 /* Bubbles.wav in Resources */,
+				AC632F81253A67E300BC6B94 /* HelloBragTags.ttf in Resources */,
 				ACDD86502515B6A500A0C30B /* LaunchScreen.storyboard in Resources */,
 				ACDD86442515B6A300A0C30B /* Actions.sks in Resources */,
 			);
@@ -267,8 +293,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACD88F652551130B00F35A22 /* MainMenuScene.swift in Sources */,
 				ACDD86462515B6A300A0C30B /* GameScene.swift in Sources */,
 				ACDD86482515B6A300A0C30B /* GameViewController.swift in Sources */,
+				AC632F86253BCB1100BC6B94 /* GameOverScene.swift in Sources */,
 				ACDD86402515B6A300A0C30B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,6 +471,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4CHW6T5437;
 				INFOPLIST_FILE = "Nice Whale/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -460,6 +489,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4CHW6T5437;
 				INFOPLIST_FILE = "Nice Whale/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
